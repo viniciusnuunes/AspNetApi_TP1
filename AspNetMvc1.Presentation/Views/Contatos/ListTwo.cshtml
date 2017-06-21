@@ -1,0 +1,66 @@
+﻿@using AspNetMvc1.Presentation.Models
+@model List<ContatoViewModel>
+
+@{
+    ViewBag.Title = "ListTwo";
+}
+
+<h2>Lista de Telefones</h2>
+
+
+
+@using (Html.BeginForm("ListTwo", "Contatos"))
+{
+    @Html.AntiForgeryToken()
+
+    <table class="table">
+        <tr>
+            <th>
+                Nome
+            </th>
+            <th>
+                Sobrenome
+            </th>
+            <th>
+                Telefone
+            </th>
+            <th>
+                IsSelected
+            </th>
+        </tr>
+        @for (int i = 0; i < Model.Count; i++)
+        {
+            <tr>
+
+                @Html.HiddenFor(model => model[i].Id)
+
+                <td>
+                    @Html.DisplayFor(model => model[i].nome)
+                    @Html.HiddenFor(model => model[i].nome)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(model => model[i].sobreNome)
+                    @Html.HiddenFor(model => model[i].sobreNome)
+                </td>
+
+                @Html.HiddenFor(model => model[i].email)
+
+                <td>
+                    @Html.DisplayFor(model => model[i].telefone)
+                    @Html.HiddenFor(model => model[i].telefone)
+                </td>
+
+                <td>
+                    @Html.EditorFor(model => model[i].isSelected)
+                </td>
+            </tr>
+        }
+    </table>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Salvar e ver lista de emails" class="btn btn-default" />
+        </div>
+    </div>
+}

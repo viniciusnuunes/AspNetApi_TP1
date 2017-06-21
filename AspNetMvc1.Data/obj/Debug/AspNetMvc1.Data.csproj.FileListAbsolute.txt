@@ -1,0 +1,7 @@
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\AspNetMvc1\AspNetMvc1.Data\bin\Debug\AspNetMvc1.Data.dll
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\AspNetMvc1\AspNetMvc1.Data\bin\Debug\AspNetMvc1.Data.pdb
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\AspNetMvc1\AspNetMvc1.Data\bin\Debug\AspNetMvc1.Domain.dll
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\AspNetMvc1\AspNetMvc1.Data\bin\Debug\AspNetMvc1.Domain.pdb
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\AspNetMvc1\AspNetMvc1.Data\obj\Debug\AspNetMvc1.Data.csprojResolveAssemblyReference.cache
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\AspNetMvc1\AspNetMvc1.Data\obj\Debug\AspNetMvc1.Data.dll
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\AspNetMvc1\AspNetMvc1.Data\obj\Debug\AspNetMvc1.Data.pdb
